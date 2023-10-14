@@ -6,8 +6,13 @@ import Technologies from "../components/technologies";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import Projects from "../components/projects";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div translate="off" lang="en" className="home">
       <Hero id="hero" className="hero" />

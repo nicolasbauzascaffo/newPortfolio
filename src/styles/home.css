@@ -74,7 +74,18 @@
     rgba(203, 246, 0, 1) 100%
   );
   box-shadow: 1px 1px 1px 1px #bbe9255b;
+  animation: increaseSize 2s;
 }
+
+@keyframes increaseSize {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 @keyframes girar {
   0% {

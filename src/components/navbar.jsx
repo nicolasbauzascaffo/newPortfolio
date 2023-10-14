@@ -53,7 +53,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            <h3>Nico.Dev</h3>
+            <h4>Nico.Dev</h4>
           </Typography>
 
           <Typography
@@ -71,7 +71,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            <h3>Nico.Dev</h3>
+             <h4>Nico.Dev</h4>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <section
