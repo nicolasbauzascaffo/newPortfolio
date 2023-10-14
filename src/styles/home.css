@@ -19,7 +19,6 @@
 .hero {
   grid-area: hero;
   background-color: rgb(20, 38, 68);
-  border-radius: 0 0 30% 0;
   display: flex;
   justify-content: center;
   align-items: center;
