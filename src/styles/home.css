@@ -66,7 +66,14 @@
 
 .myavatar {
   height: 400px;
-  border-radius: 0 10% 0 10%;
+  border-radius: 5% 10% 5% 10%;
+  background: rgb(125, 172, 0);
+  background: linear-gradient(
+    188deg,
+    rgba(125, 172, 0, 0.5718662464985995) 0%,
+    rgba(203, 246, 0, 1) 100%
+  );
+  box-shadow: 1px 1px 1px 1px #bbe9255b;
 }
 
 @keyframes girar {
@@ -120,7 +127,7 @@
   }
 }
 
-@media only screen and (max-device-width: 1000px) and (orientation: landscape){
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
   .myavatar {
     height: 190px;
   }
@@ -131,7 +138,7 @@
     font-size: 18px;
   }
   .hero {
-    flex-direction:row;
+    flex-direction: row;
     padding-top: 40px;
   }
   .helloEmoji {
