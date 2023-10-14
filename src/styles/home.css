@@ -1,0 +1,405 @@
+.home {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  grid-template:
+    "hero" 100vh
+    "about" auto
+    "technologies" auto
+    "projects" auto
+    "contact" auto
+    "footer" auto;
+}
+
+/*Hero*/
+
+.hero {
+  grid-area: hero;
+  background-color: rgb(20, 38, 68);
+  border-radius: 0 0 30% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px #bbe925;
+  gap: 30px;
+}
+
+.leftHeroDiv {
+  animation: aparecer 0.2s;
+  animation-duration: 2s;
+  animation-name: transformation;
+}
+
+.rigthHeroDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.hero h2 {
+  margin: 1;
+  color: #bbe925;
+}
+
+.helloEmoji {
+  width: 60px;
+  animation: girar 0.8s linear infinite alternate;
+  transform-origin: center;
+}
+
+.downEmoji {
+  width: 60px;
+}
+
+.myavatar {
+  height: 400px;
+  border-radius: 0 10% 0 10%;
+  border: solid 3px #bbe925;
+  box-shadow: 1px 1px 1px rgb(90, 90, 90);
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes transformation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 770px) {
+  .hero {
+    flex-direction: column;
+  }
+  .myavatar {
+    height: 300px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero {
+    flex-direction: column;
+  }
+  .myavatar {
+    height: 230px;
+  }
+  .hero h1 {
+    font-size: 26px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .helloEmoji {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape){
+  .myavatar {
+    height: 190px;
+  }
+  .hero h1 {
+    font-size: 20px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .hero {
+    flex-direction:row;
+    padding-top: 40px;
+  }
+  .helloEmoji {
+    width: 30px;
+  }
+}
+
+/*About*/
+
+.about {
+  grid-area: about;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.about h2 {
+  color: rgb(20, 38, 68);
+}
+
+.infoSection {
+  color: rgb(32, 32, 32);
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+@media (max-width: 770px) {
+  .infoSection {
+    width: 100%;
+  }
+  .about button {
+    text-align: center;
+  }
+}
+
+.rocketEmoji {
+  width: 90px;
+  animation-duration: 2s;
+  animation-name: transformRocket;
+  animation-iteration-count: infinite;
+}
+
+@keyframes transformRocket {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*Technologies*/
+
+.technologies {
+  grid-area: technologies;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(20, 38, 68);
+  color: white !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 2px 2px 2px 2px #bbe925;
+  text-align: center;
+}
+
+.techSection {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.technologies h2 {
+  color: #bbe925;
+}
+
+.technologiesSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.techBox {
+  width: 150px;
+  height: 200px;
+  background-color: #bbe925;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(20, 38, 68) !important;
+  font-size: 20px;
+}
+
+@media (max-width: 340px) {
+  .techBox {
+    width: 90%;
+  }
+}
+
+.techIcon {
+  width: 80px;
+}
+
+/*Projects*/
+.projects {
+  grid-area: projects;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(32, 32, 32);
+  gap: 30px;
+}
+
+.projects h2 {
+  color: rgb(20, 38, 68) !important;
+}
+
+.projectsSection {
+  display: flex;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectBox {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(206, 206, 206);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(155, 175, 214);
+  gap: 5px;
+}
+
+.projectBox button {
+  background-color: transparent;
+  border: solid 2px rgb(20, 38, 68);
+  margin: 10px;
+}
+
+.projectBox button:hover {
+  background-color: rgb(20, 38, 68);
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.projectBox h2 {
+  color: rgb(20, 38, 68) !important;
+}
+
+.projectBox img {
+  width: 60%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.projectBox p {
+  color: white;
+  background-color: rgb(20, 38, 68);
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+}
+
+@media (max-width: 340px) {
+  .projectBox {
+    width: 240px;
+  }
+}
+
+/*Contact*/
+.contact {
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 40px;
+}
+
+.contact h2 {
+  color: rgb(20, 38, 68);
+}
+
+.contact h3 {
+  color: rgb(20, 38, 68);
+  animation: infiniteSizeChange 3s ease-in-out infinite;
+  text-align: center;
+}
+
+@keyframes infiniteSizeChange {
+  0%,
+  100% {
+    font-size: 18px;
+  }
+  50% {
+    font-size: 20px;
+  }
+}
+
+.getInTouch {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #bbe925;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Footer*/
+.footer {
+  grid-area: footer;
+  background-color: rgb(20, 38, 68);
+  box-shadow: 20px 20px 20px 20px #bbe925;
+  border-radius: 25% 25% 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+
+.footer p {
+  font-size: 10px;
+}
+
+.footer h2 {
+  margin: 0;
+}
+
+.information p {
+  margin: 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
