@@ -4,8 +4,13 @@ import avatar from "../images/avatar.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Hero() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div id="hero" className="hero">
       <div className="leftHeroDiv">
