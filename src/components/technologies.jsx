@@ -3,7 +3,7 @@ import techsEmoji from "../images/technologiesEmoji.png";
 import html from "../images/htmlLogo.png";
 import css from "../images/cssLogo.png";
 import js from "../images/JSlogo.png";
-import ts from "../images/TS.png";
+import seq from '../images/sequelize.png';
 import react from "../images/ReactLogo.png";
 import redux from "../images/reduxLogo.png";
 import node from "../images/nodeLogo.png";
@@ -38,10 +38,6 @@ function Technologies() {
           <h5>JavaScript</h5>
         </section>
         <section className="techBox">
-          <img className="techIcon" src={ts} alt="icon" />
-          <h5>TypeScript</h5>
-        </section>
-        <section className="techBox">
           <img className="techIcon" src={react} alt="icon" />
           <h5>React</h5>
         </section>
@@ -68,6 +64,10 @@ function Technologies() {
         <section className="techBox">
           <img className="techIcon" src={mongo} alt="icon" />
           <h5>Mongo DB</h5>
+        </section>
+        <section className="techBox">
+          <img className="techIcon" src={seq} alt="icon" />
+          <h5>Sequelize</h5>
         </section>
         <section className="techBox">
           <img className="techIcon" src={ui} alt="icon" />
