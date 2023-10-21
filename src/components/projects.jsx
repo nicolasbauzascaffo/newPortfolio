@@ -15,18 +15,7 @@ function Projects() {
           <h2>EatRush</h2>
           <img src={chartLogo} alt="siteImg" />
           <Link
-            to="https://eatrush.netlify.app/"
-            style={{ textDecoration: "none" }}
-          >
-            <button> Go to the page</button>
-          </Link>
-        </section>
-        <section className="projectBox">
-          <p>Music App</p>
-          <h2>PulseMusic</h2>
-          <img src={musicLogo} alt="siteImg" />
-          <Link
-            to="https://pulsemusicapp.netlify.app/start"
+            to="https://eatrush-com.vercel.app/"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
