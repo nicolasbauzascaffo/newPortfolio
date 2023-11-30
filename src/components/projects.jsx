@@ -2,6 +2,7 @@ import React from "react";
 import rocketEmoji from "../images/rocketEmoji.png";
 import chartLogo from "../images/chart.jpg";
 import pokeball from '../images/pokeball.webp'
+import popcorn from '../images/desktop-wallpaper-popcorn-bursting-pics-cute-popcorn.jpg'
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -27,6 +28,17 @@ function Projects() {
           <img src={pokeball} alt="siteImg" />
           <Link
             to="https://pokedex-mu-silk.vercel.app/"
+            style={{ textDecoration: "none" }}
+          >
+            <button> Go to the page</button>
+          </Link>
+        </section>
+        <section className="projectBox">
+          <p>Movie App</p>
+          <h2>MovieFlix</h2>
+          <img src={popcorn} alt="siteImg" />
+          <Link
+            to="https://movie-flix-com.vercel.app/"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
