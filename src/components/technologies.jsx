@@ -12,6 +12,7 @@ import pg from "../images/PGlogo.png";
 import mySQl from "../images/mySQLlogo.png";
 import ui from "../images/uiLogo.png";
 import mongo from "../images/mongo.png";
+import git from '../images/icons8-git-100.png'
 
 function Technologies() {
   return (
@@ -62,8 +63,8 @@ function Technologies() {
           <h5>MySQL</h5>
         </section>
         <section className="techBox">
-          <img className="techIcon" src={mongo} alt="icon" />
-          <h5>Mongo DB</h5>
+          <img className="techIcon" src={git} alt="icon" />
+          <h5>Git</h5>
         </section>
         <section className="techBox">
           <img className="techIcon" src={seq} alt="icon" />
