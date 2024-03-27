@@ -13,13 +13,14 @@ import mySQl from "../images/mySQLlogo.png";
 import ui from "../images/uiLogo.png";
 import mongo from "../images/mongo.png";
 import git from '../images/icons8-git-100.png'
+import ts from '../images/TS.png'
 
 function Technologies() {
   return (
     <div id="technologies" className="technologies">
       <img className="rocketEmoji" src={techsEmoji} alt="techs" />
       <section className="techSection">
-        <h2>Technologies</h2>
+        <h2>Technologies and Tools</h2>
         <p>
           I have worked with various technologies on both the client and server
           side, combining them in several personal projects.
@@ -39,6 +40,10 @@ function Technologies() {
           <h5>JavaScript</h5>
         </section>
         <section className="techBox">
+          <img className="techIcon" src={ts} alt="icon" />
+          <h5>TypeScript</h5>
+        </section>
+        <section className="techBox">
           <img className="techIcon" src={react} alt="icon" />
           <h5>React</h5>
         </section>
@@ -53,10 +58,6 @@ function Technologies() {
         <section className="techBox">
           <img className="techIcon" src={ex} alt="icon" />
           <h5>Express.js</h5>
-        </section>
-        <section className="techBox">
-          <img className="techIcon" src={pg} alt="icon" />
-          <h5>PostgreSQL</h5>
         </section>
         <section className="techBox">
           <img className="techIcon" src={mySQl} alt="icon" />
