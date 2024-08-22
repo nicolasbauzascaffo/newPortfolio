@@ -48,6 +48,10 @@ function Technologies() {
           <h5>React</h5>
         </section>
         <section className="techBox">
+          <img className="techIcon" src={react} alt="icon" />
+          <h5>React Native</h5>
+        </section>
+        <section className="techBox">
           <img className="techIcon" src={redux} alt="icon" />
           <h5>Redux</h5>
         </section>
