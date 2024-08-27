@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadIcon from "@mui/icons-material/Download";
-import cv from "../data/CV - Nicolas Bauza (EN).pdf";
+import cv from "../data/CV Nicolás Bauzá (EN).pdf";
 import downEmoji from "../images/downEmoji.png";
 
 function About() {
