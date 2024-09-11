@@ -1,8 +1,8 @@
 import React from "react";
 import rocketEmoji from "../images/rocketEmoji.png";
 import chartLogo from "../images/chart.jpg";
-import pokeball from '../images/pokeball.webp'
-import popcorn from '../images/desktop-wallpaper-popcorn-bursting-pics-cute-popcorn.jpg'
+import pokeball from "../images/pokeball.webp";
+import expo from "../images/expo.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -25,7 +25,7 @@ function Projects() {
         <section className="projectBox">
           <p>Expo - IOS App</p>
           <h2>EasyTravel</h2>
-          <img src={popcorn} alt="siteImg" />
+          <img src={expo} alt="siteImg" />
           <Link
             to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-11T22%3A36%3A52.928Z&slug=exp&projectId=608d07ec-688c-4328-b5bc-c16ec3a29739&group=e7b2edf2-02f3-40c2-af88-75587e79f30d /"
             style={{ textDecoration: "none" }}
