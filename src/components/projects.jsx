@@ -23,22 +23,22 @@ function Projects() {
           </Link>
         </section>
         <section className="projectBox">
-          <p>Pokémon App</p>
-          <h2>Pokédex</h2>
-          <img src={pokeball} alt="siteImg" />
+          <p>Expo - IOS App</p>
+          <h2>EasyTravel</h2>
+          <img src={popcorn} alt="siteImg" />
           <Link
-            to="https://pokedex-mu-silk.vercel.app/"
+            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-11T22%3A36%3A52.928Z&slug=exp&projectId=608d07ec-688c-4328-b5bc-c16ec3a29739&group=e7b2edf2-02f3-40c2-af88-75587e79f30d /"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
           </Link>
         </section>
         <section className="projectBox">
-          <p>Movie App</p>
-          <h2>MovieFlix</h2>
-          <img src={popcorn} alt="siteImg" />
+          <p>Pokémon App</p>
+          <h2>Pokédex</h2>
+          <img src={pokeball} alt="siteImg" />
           <Link
-            to="https://movie-flix-com.vercel.app/"
+            to="https://pokedex-mu-silk.vercel.app/"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
