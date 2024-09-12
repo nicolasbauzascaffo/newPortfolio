@@ -27,7 +27,7 @@ function Projects() {
           <h2>EasyTravel</h2>
           <img src={expo} alt="siteImg" />
           <Link
-            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-11T22%3A36%3A52.928Z&slug=exp&projectId=608d07ec-688c-4328-b5bc-c16ec3a29739&group=e7b2edf2-02f3-40c2-af88-75587e79f30d /"
+            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-12T19%3A46%3A51.150Z&slug=exp&projectId=608d07ec-688c-4328-b5bc-c16ec3a29739&group=fa6a7e86-b4b5-4954-9e5b-e50fc00778f9/"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
