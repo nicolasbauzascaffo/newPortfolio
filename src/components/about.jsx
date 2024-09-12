@@ -9,15 +9,16 @@ function About() {
       <section className="infoSection">
         <h2>About me</h2>
         <p>
-          My name is Nicolás Bauzá Scaffo. I am from Montevideo Uruguay. Since I
-          was a child, I always felt a great attraction for technology; which
-          encouraged me to take this path. During my life I not only dedicated
-          myself to this, but I was also in the Army for more than 11 years;
-          where I learned a fundamental pillar for working life: Discipline. I
-          had the opportunity to work for the United Nations in Democratic
-          Republic of Congo (Africa) where I gained a lot of experience in
-          leading human groups and teamwork. If you slide you can see some of
-          the projects i have worked on.
+          My name is Nicolás Bauzá Scaffo, and I am from Montevideo, Uruguay.
+          Since childhood, I have always been deeply drawn to technology, which
+          inspired me to pursue a career in this field. In addition to my
+          passion for tech, I served in the Army for over 11 years, where I
+          learned a key principle that has shaped my professional life:
+          discipline. I also had the privilege of working with the United
+          Nations in the Democratic Republic of Congo, where I gained valuable
+          experience in leadership and teamwork. Currently, I am pursuing a
+          Bachelor's Degree in Computer Science. If you scroll through, you will
+          find some of the projects I have worked on.
         </p>
         <a style={{ textDecoration: "none" }} href={cv} download>
           <button>

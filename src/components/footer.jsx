@@ -23,7 +23,7 @@ function Footer() {
         <p><EmailIcon/> nicolasbauza21@gmail.com</p>
         <p><LocationOnIcon/> Montevideo / Uruguay</p>
       </section>
-      <p>© 2023 NicolásBauzá  - All rights reserved</p>
+      <p>© 2024 NicolásBauzá  - All rights reserved</p>
     </div>
   );
 }
