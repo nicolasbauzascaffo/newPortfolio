@@ -29,7 +29,7 @@ function Projects() {
           <h2>StarBank (only IOS)</h2>
           <img src={bank} alt="siteImg" />
           <Link
-            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-25T05%3A13%3A48.801Z&slug=exp&projectId=82b3e281-253f-47fc-985d-7dabca6624a1&group=08c83651-89a6-4b31-ae22-2debd487b181"
+            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-09-25T22%3A33%3A51.639Z&slug=exp&projectId=82b3e281-253f-47fc-985d-7dabca6624a1&group=e23bd010-757e-4213-91d2-d057dfe4f555"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the App</button>
