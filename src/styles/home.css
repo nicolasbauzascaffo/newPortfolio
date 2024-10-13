@@ -248,7 +248,7 @@
 
 .techBox {
   width: 150px;
-  height: 200px;
+  height: 180px;
   background-color: #bbe925;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px rgb(56, 56, 56);
@@ -267,7 +267,7 @@
 }
 
 .techIcon {
-  width: 80px;
+  width: 70px;
 }
 
 /*Projects*/
