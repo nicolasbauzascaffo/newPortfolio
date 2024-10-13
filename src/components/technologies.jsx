@@ -68,20 +68,12 @@ function Technologies() {
           <h5>MySQL</h5>
         </section>
         <section className="techBox">
-          <img className="techIcon" src={pg} alt="icon" />
-          <h5>PostgreSQL</h5>
-        </section>
-        <section className="techBox">
           <img className="techIcon" src={git} alt="icon" />
           <h5>Git</h5>
         </section>
         <section className="techBox">
           <img className="techIcon" src={seq} alt="icon" />
           <h5>Sequelize</h5>
-        </section>
-        <section className="techBox">
-          <img className="techIcon" src={ui} alt="icon" />
-          <h5>Material UI</h5>
         </section>
       </section>
     </div>
