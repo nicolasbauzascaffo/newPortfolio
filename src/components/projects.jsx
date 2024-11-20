@@ -28,7 +28,7 @@ function Projects() {
           <h2>Groove (IOS)</h2>
           <img src={music} alt="siteImg" />
           <Link
-            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.0.0.&updateRuntimeVersion=1.0.0&createdAt=2024-10-13T03%3A52%3A07.484Z&slug=exp&projectId=65a5875d-6d1d-4a6a-9272-c247b202effa&group=cad054d8-b627-4f28-9a48-9d3cbb2e7e5f"
+            to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.1.1.&updateRuntimeVersion=1.0.0&createdAt=2024-11-20T20%3A46%3A29.527Z&slug=exp&projectId=37e14f0a-992f-40a0-b7e0-6efb334c75ae&group=b4efad2b-c86e-48d1-8d1a-05425e61527e"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the App</button>
