@@ -5,7 +5,7 @@ import pokeball from "../images/pokeball.webp";
 import bank from '../images/bank.jpg'
 import { Link } from "react-router-dom";
 import music from '../images/musicImg.jpeg'
-import weather from '../images/'
+import weather from '../images/weather_icon.png'
 
 function Projects() {
   return (
@@ -38,7 +38,7 @@ function Projects() {
         <section className="projectBox">
           <p>Expo - IOS App</p>
           <h2>WeatherSphere (IOS)</h2>
-          <img src={expo} alt="siteImg" />
+          <img src={weather} alt="siteImg" />
           <Link
             to="https://expo.dev/preview/update?message=Initial%20commit%0A%0AGenerated%20by%20create-expo-app%203.2.0.&updateRuntimeVersion=1.0.0&createdAt=2025-01-25T06%3A32%3A46.442Z&slug=exp&projectId=d01bc47f-005f-409b-bb71-a16032f09898&group=87902d25-7b21-4f62-a7b9-18dfb87dba41"
             style={{ textDecoration: "none" }}
