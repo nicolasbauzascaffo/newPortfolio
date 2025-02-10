@@ -8,7 +8,6 @@ import react from "../images/ReactLogo.png";
 import redux from "../images/reduxLogo.png";
 import node from "../images/nodeLogo.png";
 import ex from "../images/expresLogo.png";
-import pg from "../images/PGlogo.png";
 import mySQl from "../images/mySQLlogo.png";
 import ui from "../images/uiLogo.png";
 import mongo from "../images/mongo.png";
@@ -29,14 +28,6 @@ function Technologies() {
         </p>
       </section>
       <section className="technologiesSection">
-        <section className="techBox">
-          <img className="techIcon" src={html} alt="icon" />
-          <h5>HTML</h5>
-        </section>
-        <section className="techBox">
-          <img className="techIcon" src={css} alt="icon" />
-          <h5>CSS</h5>
-        </section>
         <section className="techBox">
           <img className="techIcon" src={js} alt="icon" />
           <h5>JavaScript</h5>
@@ -68,6 +59,10 @@ function Technologies() {
         <section className="techBox">
           <img className="techIcon" src={mySQl} alt="icon" />
           <h5>MySQL</h5>
+        </section>
+        <section className="techBox">
+          <img className="techIcon" src={mongo} alt="icon" />
+          <h5>Mongo</h5>
         </section>
         <section className="techBox">
           <img className="techIcon" src={git} alt="icon" />
