@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadIcon from "@mui/icons-material/Download";
-import cv from "../data/CV Nicolás Bauzá (EN).pdf";
+import cv from "../data/CV - Nicolás Bauzá (EN).pdf";
 import downEmoji from "../images/downEmoji.png";
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
       <section className="infoSection">
         <h2>About me</h2>
         <p>
-          My name is Nicolás Bauzá Scaffo, and I am from Montevideo, Uruguay.
+          My name is Nicolás Bauzá, and I am from Montevideo, Uruguay.
           Since childhood, I have always been deeply drawn to technology, which
           inspired me to pursue a career in this field. In addition to my
           passion for tech, I served in the Army for over 11 years, where I

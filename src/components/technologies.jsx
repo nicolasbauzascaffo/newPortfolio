@@ -3,7 +3,7 @@ import techsEmoji from "../images/technologiesEmoji.png";
 import html from "../images/htmlLogo.png";
 import css from "../images/cssLogo.png";
 import js from "../images/JSlogo.png";
-import seq from '../images/sequelize.png';
+import seq from "../images/sequelize.png";
 import react from "../images/ReactLogo.png";
 import redux from "../images/reduxLogo.png";
 import node from "../images/nodeLogo.png";
@@ -12,8 +12,10 @@ import pg from "../images/PGlogo.png";
 import mySQl from "../images/mySQLlogo.png";
 import ui from "../images/uiLogo.png";
 import mongo from "../images/mongo.png";
-import git from '../images/icons8-git-100.png'
-import ts from '../images/TS.png'
+import git from "../images/icons8-git-100.png";
+import ts from "../images/TS.png";
+import jest from "../images/jest-img.png";
+import gitHub from "../images/icons8-github-100.png";
 
 function Technologies() {
   return (
@@ -72,8 +74,20 @@ function Technologies() {
           <h5>Git</h5>
         </section>
         <section className="techBox">
+          <img className="techIcon" src={gitHub} alt="icon" />
+          <h5>GitHub</h5>
+        </section>
+        <section className="techBox">
+          <img className="techIcon" src={jest} alt="icon" />
+          <h5>Jest</h5>
+        </section>
+        <section className="techBox">
           <img className="techIcon" src={seq} alt="icon" />
           <h5>Sequelize</h5>
+        </section>
+        <section className="techBox">
+          <img className="techIcon" src={ui} alt="icon" />
+          <h5>Material UI</h5>
         </section>
       </section>
     </div>
