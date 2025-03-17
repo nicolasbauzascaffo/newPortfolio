@@ -86,7 +86,7 @@ function Technologies() {
                   src={tech.image}
                   alt={`${tech.name} logo`}
                 />
-                <p style={{ fontWeight: "bold", fontSize: "13px" }}>
+                <p style={{ fontWeight: "bold", fontSize: "10px" }}>
                   {tech.name}
                 </p>
               </div>
