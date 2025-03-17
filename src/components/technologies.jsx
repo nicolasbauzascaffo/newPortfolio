@@ -57,15 +57,15 @@ function Technologies() {
           modules={[FreeMode, Pagination, Autoplay]}
           breakpoints={{
             350: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 1,
             },
             400: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 1,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 1,
             },
             1024: {
