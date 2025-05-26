@@ -5,14 +5,12 @@ import seq from "../images/sequelize.png";
 import react from "../images/ReactLogo.png";
 import redux from "../images/reduxLogo.png";
 import node from "../images/nodeLogo.png";
-import ex from "../images/expresLogo.png";
+import tort from '../images/icons8-tortuga-100.png'
 import mysql from "../images/mySQLlogo.png";
-import ui from "../images/uiLogo.png";
-import mongo from "../images/mongo.png";
 import git from "../images/icons8-git-100.png";
+import python from '../images/icons8-python-100.png'
 import ts from "../images/TS.png";
 import jest from "../images/jest-img.png";
-import gitHub from "../images/icons8-github-100.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -21,20 +19,18 @@ import "swiper/css/pagination";
 
 function Technologies() {
   const technologies = [
+    { name: "Python", image: python },
     { name: "JavaScript", image: js },
     { name: "TypeScript", image: ts },
     { name: "React", image: react },
     { name: "React Native", image: react },
     { name: "Redux", image: redux },
     { name: "Node.js", image: node },
-    { name: "Express.js", image: ex },
     { name: "MySQL", image: mysql },
-    { name: "MongoDB", image: mongo },
     { name: "Git", image: git },
-    { name: "GitHub", image: gitHub },
     { name: "Jest", image: jest },
-    { name: "Sequelize", image: seq },
-    { name: "Material UI", image: ui },
+     { name: "Tortoise ORM", image: tort},
+    { name: "Sequelize ORM", image: seq },
   ];
 
   return (
