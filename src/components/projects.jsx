@@ -18,7 +18,7 @@ function Projects() {
           <h2>Zuno</h2>
           <img src={hotel} alt="siteImg" />
           <Link
-            to="https://conn-red-social-app-sdrm.vercel.app/home"
+            to="https://zuno2025app-nine.vercel.app/"
             style={{ textDecoration: "none" }}
           >
             <button> Go to the page</button>
